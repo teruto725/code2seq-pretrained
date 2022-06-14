@@ -1,0 +1,17 @@
+.idea/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+.mypy_cache/
+
+
+wandb
+outputs/
+
+code2seq.egg-info/
+dist/
+build/
+
+.vscode/
+
+data/
