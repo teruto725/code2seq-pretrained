@@ -1,0 +1,3 @@
+[submodule "externallibs/code2seq-pretraind"]
+	path = externallibs/code2seq-pretraind
+	url = git@github.com:teruto725/my-code2seq.git
