@@ -1,3 +1,6 @@
 [submodule "externallibs/code2seq-pretraind"]
 	path = externallibs/code2seq-pretraind
 	url = git@github.com:teruto725/my-code2seq.git
+[submodule "externallibs/code2seq-original"]
+	path = externallibs/code2seq-original
+	url = git@github.com:teruto725/my-code2seq-original.git
