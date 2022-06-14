@@ -17,3 +17,4 @@ build/
 data/
 
 notebooks/experiments/tmp/
+error_log.txt
