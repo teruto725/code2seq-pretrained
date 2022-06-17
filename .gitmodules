@@ -7,3 +7,6 @@
 [submodule "externallibs/src2abs"]
 	path = externallibs/src2abs
 	url = git@github.com:micheletufano/src2abs.git
+[submodule "externallibs/code_review"]
+	path = externallibs/code_review
+	url = git@github.com:RosaliaTufano/code_review.git

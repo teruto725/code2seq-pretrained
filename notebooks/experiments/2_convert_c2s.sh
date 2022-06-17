@@ -23,16 +23,16 @@
 # 前処理にマルチコアマシンを使用することを推奨します。
 # ステップで、この値をコアの数に設定します。
 # PYTHON - Python3インタプリタの別名．
-TRAIN_DIR=../../data/java-small_raw/training
-VAL_DIR=../../data/java-small_raw/validation
-TEST_DIR=../../data/java-small_raw/test
+TRAIN_DIR=../../data/1_devided_methods_mini/methods/training
+VAL_DIR=../../data/1_devided_methods_mini/methods/validation
+TEST_DIR=../../data/1_devided_methods_mini/methods/test
 DATASET_NAME=java-small_raw
 MAX_DATA_CONTEXTS=1000
 MAX_CONTEXTS=200
 SUBTOKEN_VOCAB_SIZE=186277
 TARGET_VOCAB_SIZE=26347
-NUM_THREADS=64
-PYTHON=python
+NUM_THREADS=1
+PYTHON=python3
 ###########################################################
 
 TRAIN_DATA_FILE=${DATASET_NAME}.train.raw.txt
@@ -70,6 +70,6 @@ ${PYTHON} ../../externallibs/code2seq-original/preprocess.py --train_data ${TRAI
     
 # If all went well, the raw data files can be deleted, because preprocess.py creates new files 
 # with truncated and padded number of paths for each example.
-rm ${TRAIN_DATA_FILE} ${VAL_DATA_FILE} ${TEST_DATA_FILE} ${TARGET_HISTOGRAM_FILE} ${SOURCE_SUBTOKEN_HISTOGRAM} \
- ${NODE_HISTOGRAM_FILE}
+# rm ${TRAIN_DATA_FILE} ${VAL_DATA_FILE} ${TEST_DATA_FILE} ${TARGET_HISTOGRAM_FILE} ${SOURCE_SUBTOKEN_HISTOGRAM} \
+#  ${NODE_HISTOGRAM_FILE}
 
