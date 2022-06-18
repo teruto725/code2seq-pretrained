@@ -36,4 +36,3 @@ for style in STYLES:
         if i%1000 == 0:print(i) 
         filename = str(filepath).split("/")[-1]
         masking(filepath, f"../../data/3_masking_mini/maskedfiles/{style}/{filename}")
-
